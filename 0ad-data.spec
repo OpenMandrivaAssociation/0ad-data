@@ -27,7 +27,7 @@ In short, we consider 0 A.D. an an educational celebration of game development
 and ancient history.
 
 %prep
-%setup -q -n 0ad-%{version}-alpha
+%setup -q -n 0ad-r%{revision}-alpha
 
 %build
 
