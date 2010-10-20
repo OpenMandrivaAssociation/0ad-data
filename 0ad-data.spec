@@ -1,9 +1,9 @@
 Name:           0ad-data
 Version:        r08413
 Release:        %mkrel 1
-Summary:        The Data Files for 0 A.D.
+Summary:        The Data Files for 0 AD
 License:        GNU GPL v2 or later
-Group:          Amusements/Games/Strategy/Real Time
+Group:          Games/Strategy
 Url:            http://wildfiregames.com/0ad/
 Source:         0ad-%{version}-alpha-unix-data.tar.gz
 BuildArch:      noarch
