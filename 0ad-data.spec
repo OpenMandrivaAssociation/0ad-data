@@ -1,6 +1,6 @@
 Name:           0ad-data
 Version:        r08413
-Release:        2.1
+Release:        %mkrel 1
 Summary:        The Data Files for 0 A.D.
 License:        GNU GPL v2 or later
 Group:          Amusements/Games/Strategy/Real Time
