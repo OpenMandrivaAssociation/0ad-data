@@ -1,4 +1,4 @@
-%define revision 08413
+%define revision 09786
 
 Name:           0ad-data
 Version:        1.0
@@ -7,7 +7,7 @@ Summary:        The Data Files for 0 AD
 License:        GNU GPL v2 or later
 Group:          Games/Strategy
 Url:            http://wildfiregames.com/0ad/
-Source:         0ad-r%{revision}-alpha-unix-data.tar.gz
+Source:         0ad-r%{revision}-alpha-unix-data.tar.xz
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
