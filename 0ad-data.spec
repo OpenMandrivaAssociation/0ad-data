@@ -1,4 +1,4 @@
-%define revision 09786
+%define revision 10288
 
 Name:           0ad-data
 Version:        1.0
