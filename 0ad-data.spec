@@ -1,15 +1,15 @@
-%define revision 10803
+# http://trac.wildfiregames.com/wiki/BuildInstructions#Linux
 
 Name:           0ad-data
-Version:        1.0
-Release:        %mkrel 0.%{revision}.1
+Epoch:		1
+Version:        r10803
+Release:        0.1
 Summary:        The Data Files for 0 AD
-License:        GNU GPL v2 or later
+License:        GPLv2+
 Group:          Games/Strategy
 Url:            http://wildfiregames.com/0ad/
-Source:         0ad-r%{revision}-alpha-unix-data.tar.xz
+Source:         0ad-%{version}-alpha-unix-data.tar.xz
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 0 A.D. (pronounced "zero ey-dee") is a free, open-source, cross-platform
@@ -27,17 +27,13 @@ In short, we consider 0 A.D. an an educational celebration of game development
 and ancient history.
 
 %prep
-%setup -q -n 0ad-r%{revision}-alpha
+%setup -q -n 0ad-%{version}-alpha
 
 %build
 
 %install
-%__mkdir_p %{buildroot}%{_datadir}
-%__mv binaries/data %{buildroot}%{_datadir}/0ad
-
-%clean
-rm -rf %{buildroot}
+%__mkdir_p %{buildroot}%{_gamesdatadir}
+%__mv binaries/data %{buildroot}%{_gamesdatadir}/0ad
 
 %files
-%defattr(-,root,root)
-%{_datadir}/0ad
+%{_gamesdatadir}/0ad
