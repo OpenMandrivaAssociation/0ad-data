@@ -2,7 +2,7 @@
 
 Name:           0ad-data
 Epoch:		1
-Version:        r10803
+Version:        r11339
 Release:        0.1
 Summary:        The Data Files for 0 AD
 License:        GPLv2+
