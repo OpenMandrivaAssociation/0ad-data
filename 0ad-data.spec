@@ -2,13 +2,13 @@
 
 Name:           0ad-data
 Epoch:		1
-Version:        r11339
+Version:        r11863
 Release:        0.1
 Summary:        The Data Files for 0 AD
 License:        GPLv2+
 Group:          Games/Strategy
 Url:            http://wildfiregames.com/0ad/
-Source:         0ad-%{version}-alpha-unix-data.tar.xz
+Source:         http://releases.wildfiregames.com/0ad-%{version}-alpha-unix-data.tar.xz
 BuildArch:      noarch
 
 %description
