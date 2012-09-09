@@ -2,8 +2,8 @@
 
 Name:           0ad-data
 Epoch:		1
-Version:        r11863
-Release:        0.1
+Version:        0.0.11
+Release:        %mkrel 1
 Summary:        The Data Files for 0 AD
 License:        GPLv2+
 Group:          Games/Strategy
