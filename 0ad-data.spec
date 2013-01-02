@@ -2,8 +2,8 @@
 
 Name:		0ad-data
 Epoch:		1
-Version:	0.0.11
-Release:	3
+Version:	0.0.12
+Release:	1
 Summary:	The Data Files for 0 AD
 License:	GPLv2+
 Group:		Games/Strategy
@@ -50,6 +50,9 @@ mv binaries/data %{buildroot}%{_gamesdatadir}/0ad
 
 
 %changelog
+* Wed Jan 02 2013pcpa <paulo.cesar.pereira.de.andrade@gmail.com> - 1:0.0.11-1
+- Update to latest upstream release.
+
 * Fri Sep 28 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.0.11-2
 + Revision: 817862
 - Use same pattern for release tag as main 0ad package.
