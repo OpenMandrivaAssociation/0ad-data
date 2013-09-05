@@ -2,7 +2,7 @@
 
 Name:		0ad-data
 Epoch:		1
-Version:	0.0.13
+Version:	0.0.14
 Release:	1
 Summary:	The Data Files for 0 AD
 License:	GPLv2+
@@ -47,4 +47,3 @@ mv binaries/data %{buildroot}%{_gamesdatadir}/0ad
 %files
 %doc LICENSE-art.txt LICENSE-audio.txt
 %{_gamesdatadir}/0ad
-
