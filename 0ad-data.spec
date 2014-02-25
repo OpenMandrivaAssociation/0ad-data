@@ -2,10 +2,10 @@
 
 Name:		0ad-data
 Epoch:		1
-Version:	0.0.14
+Version:	0.0.15
 Release:	1
 Summary:	The Data Files for 0 AD
-License:	GPLv2+
+License:	CC-BY-SA
 Group:		Games/Strategy
 Url:		http://wildfiregames.com/0ad/
 Source:		http://releases.wildfiregames.com/0ad-%{version}-alpha-unix-data.tar.xz
