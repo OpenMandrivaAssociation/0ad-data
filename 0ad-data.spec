@@ -2,7 +2,7 @@
 
 Name:		0ad-data
 Epoch:		1
-Version:	0.0.15
+Version:	0.0.16
 Release:	1
 Summary:	The Data Files for 0 AD
 License:	CC-BY-SA
