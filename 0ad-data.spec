@@ -2,13 +2,13 @@
 
 Name:		0ad-data
 Epoch:		1
-Version:	0.0.20
+Version:	0.0.23
 Release:	1
 Summary:	The Data Files for 0 AD
 License:	CC-BY-SA
 Group:		Games/Strategy
 Url:		http://wildfiregames.com/0ad/
-Source:		http://releases.wildfiregames.com/0ad-%{version}-alpha-unix-data.tar.xz
+Source0:	http://releases.wildfiregames.com/0ad-%{version}-alpha-unix-data.tar.xz
 BuildRequires:	unzip
 Requires:	fonts-ttf-dejavu
 BuildArch:	noarch
@@ -31,7 +31,7 @@ This package contains the 0ad data files.
 pushd binaries/data/mods/public
     mkdir tmp
     pushd tmp
-        unzip -x ../public.zip
+        unzip ../public.zip
 	cp -a art/LICENSE.txt ../../../../../LICENSE-art.txt
 	cp -a audio/LICENSE.txt ../../../../../LICENSE-audio.txt
         rm -fr *
