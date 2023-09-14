@@ -7,7 +7,7 @@ Release:	2
 Summary:	The Data Files for 0 AD
 License:	CC-BY-SA
 Group:		Games/Strategy
-Url:		http://wildfiregames.com/0ad/
+Url:		https://wildfiregames.com/0ad/
 Source0:	http://releases.wildfiregames.com/0ad-%{version}-alpha-unix-data.tar.xz
 BuildRequires:	unzip
 Requires:	fonts-ttf-dejavu
